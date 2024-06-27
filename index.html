@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Мир Науки</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Мир Науки</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">О нас</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Главные темы</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Товары</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Откройте для себя свое место в науке</span>
+                        <h1 class="home__data-title">Исследуйте <br> Этот <b>Прекрасный <br> Мир науки</b></h1>
+                        <a href="#" class="button">Исследовать</a>
+
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">5 лучших научных книг</span>
+                            <a href="" class="button button--flex button--link home__info-button">
+                                Больше <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Больше информации <br> О лучших книгах</h2>
+                        <p class="about__description">Вы можете найти самые лучшие научные книги по лучшим ценам со специальными скидками, успейте заказать свою книгу уже сейчас.
+                        </p>
+                        <a href="#" class="button">Заказать сейчас</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Откройте для себя <br> мир науки</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Астрономия</h2>
+                                <span class="discover__description">Доступно 24 книги</span>
+                            </div>
+                        </div>
+
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Физика</h2>
+                                <span class="discover__description">Доступно 15 книг</span>
+                            </div>
+                        </div>
+
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Математика</h2>
+                                <span class="discover__description">Доступно 18 книг</span>
+                            </div>
+                        </div>
+
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover4.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Математика</h2>
+                                <span class="discover__description">Доступно 18 книг</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="experience section">
+                <h2 class="section__title">С нашим опытом <br> Мы будем полезны для вас</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">20</h2>
+                            <span class="experience__description">Лет <br> Опыта</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">95 тыс.</h2>
+                            <span class="experience__description">Проданных <br> книг</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">650+</h2>
+                            <span class="experience__description">Договоров с <br> Образовательными учреждениями и библиотеками</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience1.jpg" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience2.jpg" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Очень большой выбор</h2>
+                        <p class="about__description">Наши книги покрывают широкий спектр областей, таких как астономия, биология, химия, физика, математика, медицина, экология, психология и многое другое. Мы гарантируем высокое качество изданий, актуальность информации и разнообразные тематики.</p>
+                    </div>
+                    <img src="/assets/img/1646714327_5-sportishka-com-p-puteshestvie-na-samolete-turizm-krasivo-fo-5.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+                        <section class="video section">
+                <h2 class="section__title"></h2>
+
+                <div class="video__container container">
+                    <p class="video__description">
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="" type="video/mp4">
+                        </video>
+
+                        <button class="" id="video-button">
+                            <i class="ri-play-line video__button-icon" id=""></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="about section" id="about">
+                <div class="experience__container container grid">
+                    <h2 class="section__title about__title">Покупка книг оптом</h2>
+                    <p class="about__description">Откройте Мир знаний с нашей коллекцией научных книг! Мы предлагаем широкий выбор книг по самым разным научным темам: от фундаментальных исследований до практических руководств.</p>
+                    <img src="/assets/img/opt.jpg" alt="" width="500" height="500">
+                </div>
+            </section>
+
+
+
+
+
+            <section class="place section" id="place">
+                <h2 class="section__title">Выбери Свою Книгу</h2>
+
+                <div class="place__container container grid">
+                    <div class="place__card">
+                        <img src="assets/img/place1.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,9</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">"Красота физики. Постигая устройство природы."</h3>
+                                <span class="place__subtitle">Фрэнк Вильчек</span>
+                                <span class="place__price">25 тыс.₽</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="assets/img/place2.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5,0</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">"Темная сторона вселенной."</h3>
+                                <span class="place__subtitle">Владимир Сурдин</span>
+                                <span class="place__price">15 тыс.₽</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="assets/img/place3.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,9</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">"Характер и невроз."</h3>
+                                <span class="place__subtitle">Клаудио Наранхо</span>
+                                <span class="place__price">35 тыс.₽</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="assets/img/place4.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">"Колоссальная книга математики"</h3>
+                                <span class="place__subtitle">Мартин Гарднер</span>
+                                <span class="place__price">250 тыс.₽</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <div class="place__card">
+                        <img src="assets/img/place5.jpg" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">4,8</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">"Расширенный фенотип"</h3>
+                                <span class="place__subtitle">Ричард Докинз</span>
+                                <span class="place__price">20 тыс.₽</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Мечтаете о захватывающей вселенной?</h2>
+                        <p class="about__description">Отправьтесь в захватывающее космическое путешествие с нашей коллекцией научных книг по астрономии! Мы приглашаем вас открыть для себя тайны Вселенной через увлекательные исследования, захватывающие фотографии и уникальные открытия.</p>
+                        <p class="about__description">Наши книги предлагают глубокие знания о звездах, планетах, галактиках и космических явлениях, а также погружают вас в фундаментальные принципы астрономии. Вы сможете узнать о последних открытиях в области космических исследований, понять устройство Вселенной и вдохновиться невероятной красотой космоса</p>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Подпишитесь на наши <br> Обновления</h2>
+                        <p class="subscribe__description">Подпишитесь на наши обновления чтобы получить специальную скидку 30%.
+                        </p>
+    
+                        <form action="" class="subscribe__form">
+                            <input type="text" placeholder="Введите почту" class="subscribe__input">
+    
+                            <button class="button">
+                                Подписаться
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        
+
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Мир науки</h3>
+                        <p class="footer__description"><br> 
+                            <br> 
+                        </p>
+
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Информация</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">О нас</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Функции</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Новости & Блог</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Компания</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Команда</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">План и ценообразование</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Стать участником</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Поддержка</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Часто задаваемые вопросы</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Центр поддержки</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Связаться с нами</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2024 СПб. Все права защищены.</p>
+                    <div class="footer__terms">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
